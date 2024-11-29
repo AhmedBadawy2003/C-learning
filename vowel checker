@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+char x;
+int upper_case_vowel,lower_case_vowel;
+
+printf("please enter your character:\n");
+scanf("%c",&x);
+
+upper_case_vowel=(x=='A' || x=='E' ||x=='Y' || x=='U'||x=='O' || x=='I' );
+
+lower_case_vowel=(x=='a' || x=='e' || x=='y' || x=='u'||x=='o' || x=='i' );
+
+if(upper_case_vowel){
+    printf("your character is an Upper case vowel\n");
+
+}
+
+else if(lower_case_vowel){
+    printf("your character is a lower case vowel\n");
+
+}
+else{
+    printf("your character is a costant!\n");
+
+}
+    return 0;
+}
