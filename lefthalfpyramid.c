@@ -8,7 +8,7 @@ int main()
     scanf("%d",&x);
     for(i=1;i<=x;i++)
 {
-     for(l=1;l+i<=5;l++)
+     for(l=1;l+i<=x;l++)
 {
     printf(" ");
 
