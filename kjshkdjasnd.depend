@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1734976678 source:g:\software engineering\c\basics journey\kjshkdjasnd\main.c
+	<stdio.h>
+	<stdlib.h>
+	"factorial.h"
+
+1734975987 source:g:\software engineering\c\basics journey\kjshkdjasnd\print_my_name.c
+	"print_my_name.h"
+
+1734975987 g:\software engineering\c\basics journey\kjshkdjasnd\print_my_name.h
+
+1734976673 g:\software engineering\c\basics journey\kjshkdjasnd\factorial.h
+
+1734976693 source:g:\software engineering\c\basics journey\kjshkdjasnd\factorial.c
+	"factorial.h"
+

@@ -1,19 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "factorial.h"
 
+int factorial(int num){
 
-void main(){
-int x ;
-printf("please enter the number:\n");
-scanf("%d",&x);
-int z=x,sum=0;
- while (x >0){
+    if(num==0){ return 0;}
+    else if(num==1){return 1;}
 
- printf("%d*%d= %d\n",z,x,z*x);
-sum+=z*x;
-
- x--;
- }
-printf("factorial is:%d\n",sum);
+    else{ return num*factorial(num-1);  }
 }
-
